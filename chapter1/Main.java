@@ -1,6 +1,8 @@
 package chapter1;
 // sample file
 
+import java.util.Random;
+
 public class Main{
     public static void main(String[] args) {
     // create an instance of a Toy class = Toy object
@@ -16,5 +18,7 @@ public class Main{
     toy1.price = 4500;
     toy1.quantity = 12;
     System.out.println();
+    Random r = new Random();
+    System.out.println(r.nextInt());
     }
 }

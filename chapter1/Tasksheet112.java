@@ -1,6 +1,6 @@
-package Tasksheet112;
+package chapter1;
 
-public class PrimitivesAct {
+public class Tasksheet112 {
     public static void main(String[] args) {
         boolean bo = true;
         char h = 'H';
@@ -16,5 +16,4 @@ public class PrimitivesAct {
         System.out.println(result);
 
     }
-    
 }
